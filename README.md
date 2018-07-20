@@ -8,7 +8,7 @@ There is also a [PyTorch implementation](https://github.com/caochunshui/Feedback
 
 ### How to install:
 
-Modify `Makefile.config` to match your machine's configuration. You may also follow [Caffe Step-by-step Instructions](http://caffe.berkeleyvision.org/installation.html) how to compile the Caffe code.
+Modify `Makefile.config` to match your machine's configuration. You may also follow [Caffe step-by-step instructions](http://caffe.berkeleyvision.org/installation.html) how to compile the Caffe code.
 
 ### How to run:
 
