@@ -17,21 +17,27 @@ Go to `matlab/FeedbackCNN_demo`, open `Matlab` run `demo.m`.
 ### How it looks:
 
 Input image:
+
 <img src="matlab/FeedbackCNN_demo/demo_image/997_265_ori.jpg" width="256">
 
 Results by FR separately energy:
+
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_separately_energy.jpg" width="256">
 
 Results by FR separately show:
+
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_separately_show.jpg" width="256">
 
 Results by FR simultaneously energy:
+
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_simultaneously_energy.jpg" width="256">
 
 Results by FR simultaneously show:
+
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_simultaneously_show.jpg" width="256">
 
 Results by summation energy:
+
 <img src="matlab/FeedbackCNN_demo/results/997_265_summation_energy.jpg" width="256">
 
 ### Files explanation:
