@@ -1,27 +1,37 @@
 # Feedback Convolutional Neural Network for Visual Localization and Segmentation
 
-The code is an implementation of Feedback Convolutional Neural Network for Visual Localization and Segmentation. The code is written in [Caffe](http://caffe.berkeleyvision.org/).
+The code is an implementation of Feedback Convolutional Neural Network for Visual Localization and Segmentation. The code is written in [Caffe](http://caffe.berkeleyvision.org/) and run with Matlab.
 
 There is also a [PyTorch implementation](https://github.com/caochunshui/Feedback-CNN), please check it if you use PyTorch and Python.
 
 ### Requirement:
 
+### How to install:
+
+Modify `Makefile.config` to match your machine's configuration. You may also follow [Caffe Step-by-step Instructions](http://caffe.berkeleyvision.org/installation.html) how to compile the Caffe code.
+
 ### How to run:
+
+Go to `matlab/FeedbackCNN_demo`, open `Matlab` run `demo.m`.
 
 ### How it looks:
 
 Input image:
-
 <img src="matlab/FeedbackCNN_demo/demo_image/997_265_ori.jpg" width="256">
 
+Results by FR separately energy:
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_separately_energy.jpg" width="256">
 
+Results by FR separately show:
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_separately_show.jpg" width="256">
 
+Results by FR simultaneously energy:
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_simultaneously_energy.jpg" width="256">
 
+Results by FR simultaneously show:
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_simultaneously_show.jpg" width="256">
 
+Results by summation energy:
 <img src="matlab/FeedbackCNN_demo/results/997_265_summation_energy.jpg" width="256">
 
 ### Files explanation:
