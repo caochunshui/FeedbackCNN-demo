@@ -10,6 +10,16 @@ There is also a [PyTorch implementation](https://github.com/caochunshui/Feedback
 
 ### How it looks:
 
+Input image:
+
+<img src="matlab/FeedbackCNN_demo/demo_image/997_265_ori.jpg" width="256">
+
+matlab/FeedbackCNN_demo/results/997_265_FR_separately_energy.jpg
+matlab/FeedbackCNN_demo/results/997_265_FR_separately_show.jpg
+matlab/FeedbackCNN_demo/results/997_265_FR_simultaneously_energy.jpg
+matlab/FeedbackCNN_demo/results/997_265_FR_simultaneously_show.jpg
+matlab/FeedbackCNN_demo/results/997_265_summation_energy.jpg
+
 ### Files explanation:
 
 ### Citation
