@@ -5,6 +5,8 @@ The code is an implementation of [Feedback Convolutional Neural Network for Visu
 There is also a [PyTorch implementation](https://github.com/caochunshui/Feedback-CNN), please check it if you use PyTorch and Python.
 
 ### Requirement:
+-caffe
+-matlab
 
 ### How to install:
 
@@ -20,27 +22,25 @@ Input image:
 
 <img src="matlab/FeedbackCNN_demo/demo_image/997_265_ori.jpg" width="256">
 
-Results by FR separately energy:
+Energy map by running FR separately:
 
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_separately_energy.jpg" width="256">
 
-Results by FR separately show:
+Visualization map by running FR separately:
 
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_separately_show.jpg" width="256">
 
-Results by FR simultaneously energy:
+Energy map by running FR simultaneously:
 
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_simultaneously_energy.jpg" width="256">
 
-Results by FR simultaneously show:
+Visualization map by running FR simultaneously:
 
 <img src="matlab/FeedbackCNN_demo/results/997_265_FR_simultaneously_show.jpg" width="256">
 
-Results by summation energy:
+Summation Energy Map:
 
 <img src="matlab/FeedbackCNN_demo/results/997_265_summation_energy.jpg" width="256">
-
-### Files explanation:
 
 ### Citation
 
